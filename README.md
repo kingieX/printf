@@ -44,9 +44,16 @@ Specifier characters at the end define the type and the interpretation of its co
 
 # Examples
 * _printf function examples
-* _printf("Charcter:[%c]\n", 'H')
-	** Output: char:[H]
-*
+* _printf("Charcter:[%c]\n", 'H');
+	* Output: Char:[H]
+* _printf("String:[%s]\n", "I am a string!");
+  	* Output: String: [I am a string!]
+* _printf("Decimal: [%d]\n", 1000);
+  	* Output: Decimal: [1000]
+* _printf("Percent: [%%]\n");
+  	* Output: Percent: [%%]
 
+# Flowchart
+Created by Ograh Joshua & KingieX
 
 
