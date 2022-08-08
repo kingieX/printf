@@ -2,8 +2,7 @@
 
 /**
  * print_c - prints a character
- * @args: arguments 
- *
+ * @args: arguments
  * Return: character printed
  */
 int print_c(va_list args)

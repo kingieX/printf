@@ -18,6 +18,11 @@ int _puts(char *str)
 
 	return (i);
 }
+/**
+ * print_s - print string
+ * @args: argument
+ * Return: string
+ */
 
 int print_s(va_list args)
 {

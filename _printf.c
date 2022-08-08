@@ -1,9 +1,7 @@
 #include "main.h"
-
 /**
  * _printf - prints all request
  * @format: format used
- *
  * Return: characters printed
  */
 int _printf(const char *format, ...)
@@ -38,16 +36,11 @@ int _printf(const char *format, ...)
 					i += 2;
 			}
 		}
-
 		if (format[i])
-		{
 			_putchar(format[i]);
 			result++;
-		}
-
 		i++;
 	}
 	va_end(args);
-
 	return (result);
 }
