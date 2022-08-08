@@ -1,9 +1,8 @@
+				PRINTF PROJECT CODES
+	_PRINTF.C
 #include "main.h"
-<<<<<<< HEAD
-=======
 #include <stdlib.h>
 
->>>>>>> final
 /**
  * specifiers - checks if there is a valid format specifier
  * @format: possible format specifier
@@ -33,38 +32,6 @@ static int (*specifiers(const char *format))(va_list)
 	{
 		if (*(point[i].t) == *format)
 		{
-<<<<<<< HEAD
-			switch (format[i + 1])
-			{
-				case 'c':
-					result += print_c(args);
-					i += 2;
-					break;
-				case 's':
-					result += print_s(args);
-					i += 2;
-					break;
-				case '%':
-					_putchar('%');
-					result++;
-					i += 2;
-					break;
-				case 'd':
-					result += print_d(args);
-					i += 2;
-					break;
-				case 'i':
-					result += print_i(args);
-					i += 2;
-					break;
-				default:
-					_putchar(format[i]);
-					_putchar(format[i + 1]);
-					i += 2;
-			}
-		}
-		if (format[i])
-=======
 			break;
 		}
 	}
@@ -88,7 +55,6 @@ int _printf(const char *format, ...)
 	while (format[i])
 	{
 		for (; format[i] != '%' && format[i]; i++)
->>>>>>> final
 		{
 			_putchar(format[i]);
 			result++;
@@ -111,10 +77,6 @@ int _printf(const char *format, ...)
 		else
 			i++;
 	}
-<<<<<<< HEAD
-	va_end(args);
-=======
 	va_end(valist);
->>>>>>> final
 	return (result);
 }
