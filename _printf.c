@@ -31,6 +31,14 @@ int _printf(const char *format, ...)
 					result++;
 					i += 2;
 					break;
+				case 'd':
+					result += print_d(args);
+					i += 2;
+					break;
+				case 'i':
+					result += print_i(args);
+					i += 2;
+					break;
 				default:
 					_putchar(format[i]);
 					_putchar(format[i + 1]);
