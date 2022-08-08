@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stddel.h>
 
 /**
  * print_s - prints a string

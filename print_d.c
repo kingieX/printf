@@ -1,4 +1,5 @@
-#include main.h
+#include "main.h"
+#include <stdarg.h>
 
 /**
  * print_d - prints a decimal
