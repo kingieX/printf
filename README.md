@@ -54,6 +54,6 @@ Specifier characters at the end define the type and the interpretation of its co
   	* Output: Percent: [%%]
 
 # Flowchart
-Created by Ograh Joshua & KingieX
+Created by Ograh Joshua & Nnachi Chima
 
 
