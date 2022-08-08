@@ -1,5 +1,3 @@
-				PRINTF PROJECT CODES
-	_PRINTF.C
 #include "main.h"
 #include <stdlib.h>
 
