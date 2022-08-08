@@ -2,6 +2,7 @@
 /**
  * _printf - prints all request
  * @format: format used
+ *
  * Return: characters printed
  */
 int _printf(const char *format, ...)
@@ -37,8 +38,11 @@ int _printf(const char *format, ...)
 			}
 		}
 		if (format[i])
+		{
 			_putchar(format[i]);
 			result++;
+		}
+
 		i++;
 	}
 	va_end(args);
